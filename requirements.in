@@ -1,0 +1,11 @@
+-e file:.
+
+bertopic
+ipykernel
+jupyter 
+pandas #Polars ist besser
+polars
+torch
+transformers
+sentence-transformers
+setfit

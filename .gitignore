@@ -1,0 +1,4 @@
+venv/
+*.egg-info
+
+src/aml_colin/models/*/
