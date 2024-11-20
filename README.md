@@ -44,14 +44,15 @@ Projekt in VS Code öffnen: File -> Open Folder -> Ordner aml_wa24 auswählen (L
 ## Notwendige packages installieren
 In VS Code Terminal öffnen (Terminal -> new Terminal)
 
-Dies sollte automatisch eine Kommandozeile öffnen. In dieser folgendes ausführen:
-- pip aktualisieren: "python -m pip install --upgrade pip"
-- pip tools installieren: "python -m pip install pip-tools"
+Dies sollte eine Kommandozeile öffnen. In dieser Folgendes ausführen:
 - venv erstellen: "python -m venv venv"
 - Hinweis: Sollte "We noticed a new environment has been created. Do you want to select it for the workspace folder?" aufploppen könnt ihr "Yes" auswählen.
 - venv aktivieren: "venv\Scripts\activate.bat"
-- Am Anfang der Commandozeile sollte nun "(venv)" stehen
-- Packages installieren (wenn am Anfang "(venv)" steht): "pip-sync requirements.txt". Dies kann etwas dauern, es werden mehrere Gigabyte heruntergeladen.
+- Am Anfang der Commandozeile sollte nun "(venv)" stehen. Falls nicht: nicht fortfahren.
+- pip aktualisieren: "python -m pip install --upgrade pip"
+- pip tools installieren: "python -m pip install pip-tools"
+- Packages installieren: "pip-sync requirements.txt". 
+- Der vorherige Schritt kann etwas dauern. Es werden mehrere Gigabyte heruntergeladen. Auch ohne Download dauert die Installation mehr als eine Minute.
 
 ## Vorbereitungs Notebook ausführen
 Wenn alles geklappt hat solltet ihr jetzt das Vorbereitungsnotebook ausführen können.
@@ -60,7 +61,7 @@ Das Notebook findet ihr in dem Ordner "notebooks" und heißt "vorbereitung.ipynb
 
 "Run All" drücken.
 
-Es sollte ein Dialog aufpoppen wo ihr den Kernel auswählen müsst. Hier zuert "Python" und dann "venv" (vermutlich mit Stern) auswählen. Das ausführen kann etwas dauern, es werden mehrere Gigabyte heruntergeladen.
+Es sollte ein Dialog aufpoppen wo ihr den Kernel auswählen müsst. Hier zuert "Python" und dann "venv" (vermutlich mit Stern) auswählen. Die Ausführung dauert etwas, es werden mehrere Gigabyte heruntergeladen.
 
 Es sollten ein Haufen Zahlen, vermutlich Ladebalken und am Ende "Success" ausgegeben werden.
 
