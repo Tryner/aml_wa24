@@ -6,6 +6,6 @@ jupyter
 pandas # Polars ist besser
 polars # Besser als Pandas
 torch
-transformers
+transformers==4.45.2 # Setfit kommt mit aktuellen transformers Versionen nicht klar
 sentence-transformers
 setfit

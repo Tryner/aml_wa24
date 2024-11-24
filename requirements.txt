@@ -10,7 +10,7 @@ accelerate==1.1.1
     # via sentence-transformers
 aiohappyeyeballs==2.4.3
     # via aiohttp
-aiohttp==3.11.2
+aiohttp==3.11.6
     # via
     #   datasets
     #   fsspec
@@ -408,7 +408,7 @@ scipy==1.14.1
     #   umap-learn
 send2trash==1.8.3
     # via jupyter-server
-sentence-transformers==3.3.0
+sentence-transformers==3.3.1
     # via
     #   -r requirements.in
     #   bertopic
@@ -480,7 +480,7 @@ traitlets==5.14.3
     #   nbclient
     #   nbconvert
     #   nbformat
-transformers==4.46.2
+transformers==4.45.2
     # via
     #   -r requirements.in
     #   sentence-transformers
