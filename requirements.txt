@@ -10,7 +10,7 @@ accelerate==1.1.1
     # via sentence-transformers
 aiohappyeyeballs==2.4.3
     # via aiohttp
-aiohttp==3.11.6
+aiohttp==3.11.7
     # via
     #   datasets
     #   fsspec
@@ -65,7 +65,7 @@ datasets==3.1.0
     #   evaluate
     #   sentence-transformers
     #   setfit
-debugpy==1.8.8
+debugpy==1.8.9
     # via ipykernel
 decorator==5.1.1
     # via ipython
@@ -447,7 +447,7 @@ torch==2.5.1
     #   -r requirements.in
     #   accelerate
     #   sentence-transformers
-tornado==6.4.1
+tornado==6.4.2
     # via
     #   ipykernel
     #   jupyter-client
@@ -455,7 +455,7 @@ tornado==6.4.1
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.67.0
+tqdm==4.67.1
     # via
     #   bertopic
     #   datasets
@@ -515,7 +515,7 @@ xxhash==3.5.0
     # via
     #   datasets
     #   evaluate
-yarl==1.17.2
+yarl==1.18.0
     # via aiohttp
 
 # The following packages are considered to be unsafe in a requirements file:
