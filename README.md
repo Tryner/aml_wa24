@@ -39,7 +39,9 @@ In dem Ordner Rechtsclick -> open in Git Bash
 
 In Git Bash: "git clone https://github.com/Tryner/aml_wa24.git"
 
-Projekt in VS Code öffnen: File -> Open Folder -> Ordner aml_wa24 auswählen (Liegt in dem vorher gewählten Ordner)
+Jetzt sollte in dem gewählten Ordner ein neuer Ordner "aml_wa24" auftauchen
+
+Projekt in VS Code öffnen: File -> Open Folder -> Ordner aml_wa24 auswählen
 
 ## Notwendige packages installieren
 In VS Code Terminal öffnen (Terminal -> new Terminal)
@@ -52,12 +54,12 @@ Dies sollte eine Kommandozeile öffnen. In dieser Folgendes ausführen:
 - pip aktualisieren: "python -m pip install --upgrade pip"
 - pip tools installieren: "python -m pip install pip-tools"
 - Packages installieren: "pip-sync requirements.txt". 
-- Der vorherige Schritt kann etwas dauern. Es werden mehrere Gigabyte heruntergeladen. Auch ohne Download dauert die Installation mehr als eine Minute.
+- Der vorherige Schritt kann etwas dauern. Es werden mehrere Gigabyte heruntergeladen. Auch ohne Download dauert die Installation mehr als eine Minute. 
 
 ## Vorbereitungs Notebook ausführen
 Wenn alles geklappt hat solltet ihr jetzt das Vorbereitungsnotebook ausführen können.
 
-Das Notebook findet ihr in dem Ordner "notebooks" und heißt "vorbereitung.ipynb". Den File-Explorer findet ihr in VS-Code auf der linken Seite.
+Das Notebook findet ihr in dem Ordner "notebooks" und heißt "vorbereitung.ipynb". Den File-Explorer findet ihr in VS-Code auf der linken Seite, ganz oben direkt unter dem VS Code Logo.
 
 "Run All" drücken.
 
