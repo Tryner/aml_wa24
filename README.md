@@ -16,9 +16,9 @@ Version 3.12 (alte Version ggf. vorher deinstallieren; 3.13 funktioniert nicht!)
 
 Link: https://www.python.org/downloads/release/python-3127/ (Download ist etwas weiter unten, "Windows installer (64-bit)" wählen)
 
-Installer ausführen, im ersten Menü beide Haken setzten und installieren
+Installer ausführen, im ersten Menü beide Haken setzten und installieren (install as admin & add python to path)
 
-Erfolg überprüfen: Auf der Kommandozeile (cmd.exe) "python --version" eingeben (und Enter drücken)-> sollte "Python 3.12.7" ausgeben
+Erfolg überprüfen: Auf der Kommandozeile (cmd.exe) "python --version" eingeben (und Enter drücken) -> sollte "Python 3.12.7" ausgeben
 
 Bei Problemen:
 - Nachschauen, ob Python istalliert wurde
@@ -28,10 +28,10 @@ Bei Problemen:
 - Python manuell zu PATH hinzufügen
 
 ## IDE (VS Code)
-VS Code installieren: https://code.visualstudio.com/Download
+VS Code installieren: https://code.visualstudio.com/Download (Standardeinstellungen sind ok)
 
 ## Git - Repo clonen
-Git installieren: https://git-scm.com/downloads (falls noch nicht vorhanden)
+Git installieren: https://git-scm.com/downloads (Standardeinstellungen sind ok, falls noch nicht vorhanden)
 
 Einen Ordner anlegen oder auswählen, in den das Repo geclont werden soll.
 
@@ -41,7 +41,11 @@ In Git Bash: "git clone https://github.com/Tryner/aml_wa24.git"
 
 Jetzt sollte in dem gewählten Ordner ein neuer Ordner "aml_wa24" auftauchen
 
+## Projekt in VS Code öffnen
+
 Projekt in VS Code öffnen: File -> Open Folder -> Ordner aml_wa24 auswählen
+
+Unten rechts sollte vorgeschlagen werden Extensions zu installieren, dies akzeptieren.
 
 ## Notwendige packages installieren
 In VS Code Terminal öffnen (Terminal -> new Terminal)
@@ -63,7 +67,7 @@ Das Notebook findet ihr in dem Ordner "notebooks" und heißt "vorbereitung.ipynb
 
 "Run All" drücken.
 
-Es sollte ein Dialog aufpoppen wo ihr den Kernel auswählen müsst. Hier zuert "Python" und dann "venv" (vermutlich mit Stern) auswählen. Die Ausführung dauert etwas, es werden mehrere Gigabyte heruntergeladen.
+Es sollte ein Dialog aufpoppen wo ihr den Kernel auswählen müsst. Hier zuert "Python" und dann "venv" (ggf. mit Stern) auswählen. Die Ausführung dauert etwas, es werden mehrere Gigabyte heruntergeladen.
 
 Es sollten ein Haufen Zahlen, vermutlich Ladebalken und am Ende "Success" ausgegeben werden.
 
