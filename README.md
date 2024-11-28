@@ -21,7 +21,7 @@ Git installieren: https://git-scm.com/downloads (Standardeinstellungen sind ok)
 
 Einen Ordner anlegen oder auswählen, in den das Repo geclont werden soll.
 
-In dem Ordner Rechtsclick -> open in Git Bash (Windows 11: ist möglicherweise hinter dem + versteckt)
+In dem Ordner Rechtsclick -> open in Git Bash (Windows 11: ist möglicherweise hinter "weitere Optionen" oder so versteckt)
 
 In Git Bash: "git clone https://github.com/Tryner/aml_wa24.git" ausführen.
 
