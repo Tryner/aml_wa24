@@ -64,15 +64,13 @@ Es sollten ein Haufen Zahlen, vermutlich Ladebalken und am Ende "Success" ausgeg
 Fertig!
 
 # Linux
-Bekommt ihr selbst hin. Ihr müsst grundsätzlich die selben Schritte befolgen wie für Windows:
+Ihr müsst grundsätzlich die selben Schritte befolgen wie für Windows. Ist teilweise etwas tricky und kommt auf eure Distro an. Bekommt ihr irgendwie hin.
 
-- Python 3.12 installieren
+- Python 3.12 installieren (Soll etwas schwiergig sein, bei meinem aktuellen Ubuntu LTS wird Python 3.12 mitgeliefert. Ggf. müsst ihr Python 3.12 parallel zu der bestehenden Python Version installieren. Sonst könnt ihr auch einfach versuchen mit der bestehenden Python Version zu arbeiten.)
 - Github Repository clonen
 - Projekt mit VS Code öffnen
-- Requirements.txt installieren
+- Requirements installieren (Die requirements.txt funktioniert nur für Windows, stattdessen "make update" ausführen. Vermutlich müsst ihr für hdbscan noch Python dev tools nachinstallieren.)
 - Notebook vorbereitung.ipynb ausführen
-
-Hinweis: Um die Requirements.txt zu installieren könnt ihr einfach im Terminal "make venv" und "make install" ausführen anstatt alle Kommandos einzeln.
 
 # MacOS
 Sollte analog zu Linux funktionieren. Hab ich nicht und kann euch folglich wenig weiterhelfen. Wenn es nicht funktioniert müsst ihr wohl Colab nutzen.

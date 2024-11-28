@@ -1,12 +1,14 @@
+SHELL := /bin/bash
+
 venv:
-	python -m venv venv
-	source venv/bin/activate
-	python -m pip install --upgrade pip
-	pip install --upgrade pip-tools
+	python -m venv venv;
+	source venv/bin/activate;
+	python -m pip install --upgrade pip;
+	pip install --upgrade pip-tools;
 
-install: 
-	pip-sync requirements.txt
+install: venv
+	pip-sync requirements.txt;
 
-update:
-	pip-compile requirements.in -q --strip-extras --upgrade
-	make install
+update: venv
+	pip-compile requirements.in -q --strip-extras --upgrade;
+	make install;
