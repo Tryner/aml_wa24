@@ -447,6 +447,8 @@ torch==2.5.1
     #   -r requirements.in
     #   accelerate
     #   sentence-transformers
+torcheval==0.0.7
+    # via -r requirements.in
 tornado==6.4.2
     # via
     #   ipykernel
@@ -491,6 +493,7 @@ typing-extensions==4.12.2
     # via
     #   huggingface-hub
     #   torch
+    #   torcheval
 tzdata==2024.2
     # via pandas
 umap-learn==0.5.7
