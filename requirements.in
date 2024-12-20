@@ -3,6 +3,7 @@
 bertopic
 ipykernel
 jupyter
+matplotlib
 pandas # Polars ist besser
 polars # Besser als Pandas
 torch
