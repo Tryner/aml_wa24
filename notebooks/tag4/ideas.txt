@@ -1,0 +1,8 @@
+Textklassifikation
+https://github.com/uds-lsv/GermEval-2018-Data
+
+Sentence tranformer trainieren: 
+sentence transformer mit Kurstitel - Beschreibung - Kurztitel? trainieren
+https://github.com/google-research-datasets/swim-ir
+
+Zero-Shot/Few Shot Klassifikation bzw. Suche von gewählten Kursen: Ähnlichkeit der Wünsche berechnen
